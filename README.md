@@ -14,9 +14,11 @@ Here are results from the full loop notebook
 
 ## OGM:
 
-
+<center><img src="https://github.com/MukhlasAdib/KITTI_Mapping/blob/main/figures/results_ogm_min.gif?raw=true" width=800px></center>
 
 ## DGM:
+
+\*The dynamic cells are colored blue 
 
 <center><img src="https://github.com/MukhlasAdib/KITTI_Mapping/blob/main/figures/results_dgm.gif?raw=true" width=800px></center>
 
