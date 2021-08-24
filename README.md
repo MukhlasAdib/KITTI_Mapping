@@ -1,6 +1,6 @@
 # MAPPING ON KITTI DATASET - A TUTORIAL
 
-This repo contains tetorials on autonomous vehicle's mapping algorithm on KITTI Dataset. This tutorial demonstrate two examples of grid-based mapping technique, which are occupancy grid map (OGM) and ecidential dynamic grid map (DGM).
+This repo contains tetorials on autonomous vehicle's mapping algorithm on KITTI Dataset. This tutorial demonstrate two examples of grid-based mapping technique, which are occupancy grid map (OGM) and ecidential dynamic grid map (DGM). The sensors used are monocular camera and LiDAR.
 - For detailed step-by-step (including theory explanation) are provided in the step-by-step mapping tutorial notebook.
 - To see how the algorithms work on the full data sequence, you can run the full loop mapping tutorial notebook.
 
