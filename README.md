@@ -8,6 +8,18 @@ In case you are not familiar with grid map, here is an example of it. As can be 
 
 <center><img src="https://github.com/MukhlasAdib/KITTI_Mapping/blob/main/figures/2_0_3443.png?raw=true" width=400px></center>
 
+# RESULTS
+
+Here are results from the full loop notebook
+
+## OGM:
+
+
+
+## DGM:
+
+<center><img src="https://github.com/MukhlasAdib/KITTI_Mapping/blob/main/figures/results_dgm.gif?raw=true" width=400px></center>
+
 # REFERENCES
 
 [1] Repository for this tutorial: https://github.com/MukhlasAdib/KITTI_Mapping.
