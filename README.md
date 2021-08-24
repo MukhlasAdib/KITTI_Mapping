@@ -4,6 +4,10 @@ This repo contains tetorials on autonomous vehicle's mapping algorithm on KITTI 
 - For detailed step-by-step (including theory explanation) are provided in the step-by-step mapping tutorial notebook.
 - To see how the algorithms work on the full data sequence, you can run the full loop mapping tutorial notebook.
 
+In case you are not familiar with grid map, here is an example of it. As can be seen, we aim to map regions around the vehicle and find which areas are drivable (white pixels) and which are not (black/gray pixels)
+
+<center><img src="https://github.com/MukhlasAdib/KITTI_Mapping/blob/main/figures/2_0_3443.png?raw=true" width=400px></center>
+
 # REFERENCES
 
 [1] Repository for this tutorial: https://github.com/MukhlasAdib/KITTI_Mapping.
