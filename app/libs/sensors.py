@@ -107,7 +107,7 @@ def process_images(img_in, sess, target_size=513, probability_threshold=0.5):
     _, segm_reg = cv2.connectedComponents(pred)
     segm_reg = segm_reg.astype(float)
     segm_reg[segm_reg == 0] = np.nan
-    modes, _ = stats.mode(segm_reg.flatten(), keepdims=True)
+    modes, _ = stats.mode(segm_reg.flatten(), keepdims=True, nan_policy="omit")
     mode = modes[0]
     pred[segm_reg != mode] = 0
 

@@ -37,8 +37,6 @@ DEEPLAB_MODEL_PATH = "../pretrained/deeplab_model.pb"
 DEEPLAB_INPUT_SIZE = 513
 ROAD_HEIGHT_THRESHOLD = 0.15
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-
 
 class Mapper:
     def __init__(self, data):
@@ -117,7 +115,7 @@ class Mapper:
             axs[1].imshow(camera_img)  # type: ignore
             axs[0].set_axis_off()  # type: ignore
             axs[1].set_axis_off()  # type: ignore
-            plt.savefig(f"{save_dir}{self.old_idx:03d}.png")
+            plt.savefig(f"{save_dir}/{self.old_idx:03d}.png")
             plt.close(fig)
 
 
