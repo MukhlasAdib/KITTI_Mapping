@@ -1,8 +1,5 @@
 import os
-import sys
 import time
-
-sys.path.insert(0, "../../pystream-pipeline")
 
 import pykitti
 from pystream import Pipeline
@@ -42,7 +39,8 @@ def main():
     app_pipeline.add(road_segmentation_stage)
     app_pipeline.add(ogm_map_stage)
     app_pipeline.add(output_writer_stage)
-    app_pipeline.serialize()
+    app_pipeline.parallelize()
+    # app_pipeline.serialize()
 
     number_data = len(kitti_data.oxts)
     old_idx = 0
