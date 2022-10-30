@@ -78,7 +78,7 @@ def crop_data(img_in, lidar_2d_in, lidar_in_cam_in, rh, rw):
     return crop_img, lidar_2d.astype(int), lidar_in_cam
 
 
-def process_images(img_in, sess, target_size=513, probability_threshold=0.5):
+def segmentation_inference(img_in, sess, target_size=513, probability_threshold=0.5):
     INPUT_TENSOR_NAME = "ImageTensor:0"
     PROB_TENSOR_NAME = "SemanticProbabilities:0"
     INPUT_SIZE = target_size
