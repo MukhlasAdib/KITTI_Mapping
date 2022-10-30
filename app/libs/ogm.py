@@ -17,6 +17,10 @@ _RGRID = np.sqrt(np.add(np.square(_MAP_XX), np.square(_MAP_YY)))
 OOR_MASK = _RGRID >= MAX_RANGE
 
 
+def init_ogm():
+    return np.ones((MAP_SIZE_Y, MAP_SIZE_X)) * 0.5
+
+
 def generate_measurement_ogm(lidar_in, ogm_shape):
     rphi_meas = np.zeros((lidar_in.shape[0], 2))
     rphi_meas[:, 1] = (
